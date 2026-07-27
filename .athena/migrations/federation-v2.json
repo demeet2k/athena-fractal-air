@@ -1,0 +1,25 @@
+{
+  "schema": "athena.repository-migration/v2",
+  "migration_id": "migration.athena.repo.view.fractal-air.federation-v2",
+  "predecessor": {
+    "state": "repository-without-athena-v2-contract",
+    "commit": "3eecf5cab4a8b712705792ad72f44f5e7287c503"
+  },
+  "successor": {
+    "rid": "athena.repo.view.fractal-air",
+    "vid": "contract-proposal-0.1.0",
+    "contract_commit": "d8c0173b3d3af8e8a1e2f403c462f541318cee5b"
+  },
+  "method": "additive-contract-overlay",
+  "status": "PROPOSED_NOT_PROMOTED",
+  "receipt": ".athena/receipts/contract-proposal.json",
+  "rollback": "Select the predecessor commit; do not rewrite either history.",
+  "preserves": [
+    "repository content",
+    "repository history",
+    "authority boundary"
+  ],
+  "defects": [
+    "Federation promotion and merge remain separate decisions."
+  ]
+}
