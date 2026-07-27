@@ -1,0 +1,30 @@
+{
+  "repository_id": "athena.repo.view.fractal-air",
+  "github": "demeet2k/athena-fractal-air",
+  "role": "view",
+  "authority_domain": "projection-fractal-air",
+  "default_branch": "master",
+  "release": "contract-proposal-0.1.0",
+  "manifest_cid": null,
+  "entrypoints": [
+    "README.md"
+  ],
+  "build": null,
+  "test": null,
+  "exports": [
+    "athena.repo.view.fractal-air@contract-proposal-0.1.0"
+  ],
+  "imports": [
+    "athena.repo.control@git:3d33fbcd6248fc2dc2991fbbab5e93a7eb184246"
+  ],
+  "coordinates": [
+    "athena://resource/athena.repo.view.fractal-air@contract-proposal-0.1.0",
+    "github://demeet2k/athena-fractal-air@3eecf5cab4a8b712705792ad72f44f5e7287c503/README.md"
+  ],
+  "return": {
+    "human": "RETURN.md",
+    "machine": ".athena/edges.jsonl",
+    "class": "compensated"
+  },
+  "privacy": "public"
+}

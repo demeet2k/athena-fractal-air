@@ -1,0 +1,25 @@
+{
+  "schema": "athena.repository-contract-receipt/v2",
+  "repository": "demeet2k/athena-fractal-air",
+  "resource": "athena.repo.view.fractal-air",
+  "verdict": "PROPOSED",
+  "base_commit": "3eecf5cab4a8b712705792ad72f44f5e7287c503",
+  "contract_commit": "d8c0173b3d3af8e8a1e2f403c462f541318cee5b",
+  "control_commit": "3d33fbcd6248fc2dc2991fbbab5e93a7eb184246",
+  "checked": [
+    ".athena/repo.json",
+    ".athena/exports.jsonl",
+    ".athena/imports.lock.json",
+    ".athena/edges.jsonl",
+    ".athena/status.json",
+    "RETURN.md"
+  ],
+  "invariants": {
+    "existing_code_changed": false,
+    "existing_history_rewritten": false,
+    "control_import_is_immutable": true,
+    "forward_edge_has_return": true,
+    "promotion_claimed": false
+  },
+  "next": "Pin the completed proposal head in the Athena federation lock."
+}
