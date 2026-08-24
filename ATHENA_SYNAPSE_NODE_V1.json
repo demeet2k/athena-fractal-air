@@ -1,0 +1,42 @@
+{
+  "schema": "ATHENA.SYNAPSE.NODE.MANIFEST.V1",
+  "node_id": "air",
+  "repository": "demeet2k/athena-fractal-air",
+  "default_branch": "master",
+  "role": "Seed / Replay / Compression lobe",
+  "standing": "DECLARED_NO_ADAPTER",
+  "observed_revision": "3eecf5cab4a8b712705792ad72f44f5e7287c503",
+  "native_surfaces": [
+    {
+      "surface_id": "air-resource",
+      "kind": "MCP_RESOURCE",
+      "reference": "athena://fractal-air",
+      "mutation_class": "READ_ONLY",
+      "evidence_ref": "blob:MCP/element_servers/fractal_server.py@06166e13c3a7a627583141ca4fa45d9118453b00",
+      "notes": "FastMCP resource declared by the observed Fractal/Air element server."
+    },
+    {
+      "surface_id": "air-tool-module",
+      "kind": "MCP_TOOL_MODULE",
+      "reference": "MCP/element_servers/fractal_server.py",
+      "mutation_class": "READ_ONLY",
+      "evidence_ref": "blob:MCP/element_servers/fractal_server.py@06166e13c3a7a627583141ca4fa45d9118453b00",
+      "notes": "Observed stage/angel/hologram/lift/containment/seed compression and brain-routing tool registrations; no write operator observed in this module."
+    }
+  ],
+  "synapse_profiles": [],
+  "import_profiles": [],
+  "return_routes": ["athena://fractal-air"],
+  "authority_class": "SELF_DECLARED_NATIVE_SURFACE",
+  "truth_ceiling": "REPOSITORY_CODE_SURFACE_ONLY",
+  "evidence_refs": [
+    "commit:3eecf5cab4a8b712705792ad72f44f5e7287c503",
+    "blob:MCP/element_servers/fractal_server.py@06166e13c3a7a627583141ca4fa45d9118453b00"
+  ],
+  "residuals": [
+    "RUNTIME_START_UNOBSERVED",
+    "SYNAPSE_ADAPTER_NOT_IMPLEMENTED",
+    "FOREIGN_PROFILE_IMPORT_UNOBSERVED",
+    "CROSS_REPO_RECEIPT_UNOBSERVED"
+  ]
+}
